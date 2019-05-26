@@ -10,15 +10,15 @@
     <TextView
         android:id="@+id/show_text"
         android:layout_width="match_parent"
-        android:layout_height="138dp"
+        android:layout_height="109dp"
         android:background="#1B1A1A"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
 
     <LinearLayout
         android:id="@+id/numbers_all"
-        android:layout_width="308dp"
-        android:layout_height="wrap_content"
+        android:layout_width="307dp"
+        android:layout_height="320dp"
         android:layout_below="@id/actions_on_top"
 
         android:layout_marginTop="0dp"
@@ -27,7 +27,7 @@
         <LinearLayout
             android:id="@+id/numbers_1_2_3"
             android:layout_width="306dp"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:orientation="horizontal">
 
             <Button
@@ -62,7 +62,7 @@
         <LinearLayout
             android:id="@+id/numbers_4_5_6"
             android:layout_width="306dp"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:orientation="horizontal">
 
             <Button
@@ -97,7 +97,7 @@
         <LinearLayout
             android:id="@+id/numbers_7_8_9"
             android:layout_width="306dp"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:orientation="horizontal">
 
             <Button
@@ -132,7 +132,7 @@
         <LinearLayout
             android:id="@+id/numbers_0_."
             android:layout_width="306dp"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:orientation="horizontal">
 
             <Button
@@ -159,9 +159,10 @@
 
     <LinearLayout
         android:id="@+id/actions_sideways"
-        android:layout_width="103dp"
-        android:layout_height="450dp"
+        android:layout_width="104dp"
+        android:layout_height="400dp"
         android:layout_below="@id/show_text"
+        android:layout_marginLeft="-1dp"
         android:layout_toRightOf="@id/numbers_all"
         android:orientation="vertical"
         tools:ignore="RtlHardcoded">
@@ -169,7 +170,7 @@
         <Button
             android:id="@+id/button_div"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:background="#FF5722"
             android:text="@string/button_div"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -178,7 +179,7 @@
         <Button
             android:id="@+id/button_x"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:background="#FF5722"
             android:text="@string/button_x"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -187,7 +188,7 @@
         <Button
             android:id="@+id/button_dec"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:background="#FF5722"
             android:text="@string/button_decrement"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -196,7 +197,7 @@
         <Button
             android:id="@+id/button_inc"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:background="#FF5722"
             android:text="@string/button_increment"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -205,7 +206,7 @@
         <Button
             android:id="@+id/button_equals"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:background="#FF5722"
             android:text="@string/button_equals"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -217,7 +218,7 @@
     <LinearLayout
         android:id="@+id/actions_on_top"
         android:layout_width="306dp"
-        android:layout_height="90dp"
+        android:layout_height="80dp"
         android:layout_below="@id/show_text"
         android:orientation="horizontal">
 
